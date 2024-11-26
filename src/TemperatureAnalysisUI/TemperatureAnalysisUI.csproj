@@ -9,7 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.2.0" />
     <PackageReference Include="SunnyUI" Version="3.8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KICDriver\KICDriver.csproj" />
+    <ProjectReference Include="..\TemperatureCommon\TemperatureCommon.csproj" />
   </ItemGroup>
 
 </Project>
