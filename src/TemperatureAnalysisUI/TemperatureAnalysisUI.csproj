@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
     <PackageReference Include="OxyPlot.WindowsForms" Version="2.2.0" />
     <PackageReference Include="SunnyUI" Version="3.8.0.1" />
   </ItemGroup>
